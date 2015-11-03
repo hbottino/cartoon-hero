@@ -1,0 +1,94 @@
+html, body{
+	font-family: futura;
+	margin: 0;
+}
+
+header{
+	background-image: url('../img/lanterns.jpg');
+	background-size: cover;
+	background-color: #F2E5FF;
+	padding: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	text-shadow: 0 2px 45px #17002D;
+	text-transform: uppercase;
+	letter-spacing: 5px
+
+}
+
+h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	background-color: #F2E5FF;
+	font-size: 15px;
+}
+
+header img{
+	border-radius: 300px;
+	width: 300px;
+	height: 300px;
+	border: 10px solid white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 2px 45px #17002D;
+
+}
+
+.content{
+	max-width: 100%;
+	color: #2A003E;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+img.big-image{
+	padding-top: 20px;
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 10px;
+	color: #F2E5FF;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #CC99FF;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #FFD699;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #F2E5FF;
+}
+
+footer ul{
+	text-align: center;
+	color: #2A003E;
+}
+
+footer ul li{ 
+	display: inline-block;
+	margin: 0 5px;
+
+
+
+}
